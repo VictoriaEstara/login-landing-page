@@ -1,40 +1,21 @@
-# project-1
+## Gambaran Umum
 
-This template should help get you started developing with Vue 3 in Vite.
+Kode ini merupakan website landing page yang berisi homepage, about, dan retrited area dengan menggunakan autentikasi login sesuai dengan username dan password yang telah ditentukan.
 
-## Recommended IDE Setup
+## Bahasa Pemrograman
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Kode proyek ini ditulis menggunakan bahasa pemrograman JavaScript dengan framework vue.js.
 
-## Type Support for `.vue` Imports in TS
+## Software Pendukung
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Proyek ini dikembangkan menggunakan [Visual Studio Code](https://code.visualstudio.com/download) dengan memasang [Node.js](https://nodejs.org) V12+. Pastikan Anda memiliki kedua hal tersebut sebelum menjalankan proyek.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Cara Penggunaan
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+1. Buka proyek menggunakan Visual Studio Code.
+2. Masukkan kode berikut ke dalam terminal untuk menginstall 'npm' dan menampilkan tautan local/host/
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+3. Klik tautan local/host/ untuk membuka website pada browser (saya menggunakan [Vivaldi Browser](https://vivaldi.com/download/)).
